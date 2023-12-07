@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    export let data
+    import Loading from "../components/loading.svelte";
+    import List from '../components/list.svelte'
+</script>
+<Loading />
+<List {data} />
