@@ -1,11 +1,10 @@
 <script>
     export let data
-    console.log(data)
 </script>
 <div>
-    <ul>
-        {#each data as dataItem}
-            <li>{dataItem}</li>
+    <ol>
+        {#each data.data as dataItem,i}
+            <li><p>{dataItem.name}</p></li>
         {/each}
-    </ul>
+    </ol>
 </div>
