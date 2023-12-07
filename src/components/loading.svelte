@@ -1,6 +1,3 @@
-<script>
-
-</script>
 <div class="center">
     <h1>Loading</h1>
 </div>
